@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020年10月22日, 上午11:09:51
+    Author     : Rui ZHANG
+*/
+html{
+	
+font-family: Arial;
+font-size:12pt;
+font-weight : bold;
+border:2px solid black;
+padding-left:2%;
+padding-right:2%;
+margin-right:20%;
+margin-left:20%;
+}
+.session{
+font-family: Arial;
+font-size:12pt;
+font-weight : bold;
+border-bottom:2px solid black;
+border-top:2px solid black;
+padding-left:2%;
+padding-right:2%;
+padding-bottom: 2%;
+margin-right:20%;
+margin-left:20%;   
+}

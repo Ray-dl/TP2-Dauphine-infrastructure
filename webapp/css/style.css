@@ -1,0 +1,26 @@
+html{
+	
+font-family: Arial;
+font-size:12pt;
+font-weight : bold;
+border:2px solid black;
+padding-left:2%;
+padding-right:2%;
+margin-right:20%;
+margin-left:20%;
+}
+.email{
+	color: red;
+
+}
+
+a {
+  text-decoration: none;
+  color: #993399;
+}
+
+a:hover{
+color: MediumBlue;
+background-color:lightgray;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>TP1</title>
+   <link rel="stylesheet" href="css/style.css" type="text/css"/>
+   <script>
+		function changeValue(p){
+			document.getElementById(p).value = "value changed";
+		}
+	</script>
+</head>
+<body>
+
+    <form method="post" action="afficherContact.jsp" >
+
+<h1>Rui ZHANG</h1>
+
+	<ul>
+		<li><a href="#paragraphe">Menu local vers idgender2</a></li>
+		<li><a href='https://passeport.dauphine.fr/' target='_blank' title="dauphine passport" accesskey="p">Passport dauphine</a></li>
+	</ul>
+	<img src="image/dauphine.jpg" id="logout1" title="Logo dauphine"  alt='Logo dauphine1'/>
+	<p>First name :
+	   <span>
+	   <input type="text" name="txt_prenom" id ="txt_prenom" value="Nom" title="vous pouvez saisir votre prénom"  size=10 required>
+	   </span>
+	</p>
+	<p>Middle name :
+	   <span>
+	   <input type="text" name="txt_nom2" title="vous pouvez saisir votre médial nom"  size=10 required>
+	   </span>
+	</p>
+	<p>Last name :
+	   <span>
+	   <input type="text" name="txt_nom1" title="vous pouvez saisir votre nom"  size=10 required>
+	   </span>
+    </p>
+	
+	<p>Gender : 
+	   male<input type="radio" name="radio1" value ="male" >
+           female<input type="radio" name="radio1" value="female">
+	</p>
+	<p>Phone:
+	   <span>
+	   <input type="text" name="txt_telephone" title="vous pouvez saisir votre numéro de téléphone" placeholder="téléphone">
+	   </span>
+	</p>	
+	<p class = "email">Email:
+	   <span>
+	   <input type="email" name="txt_mail" title="vous pouvez saisir votre adresse e-mail" placeholder="e-mail" size=30 required>
+	   </span>
+	</p>
+	<p><input type="checkbox" name="checkbox1" checked>
+       Je souhaite contacter avec vous
+	</p>
+	<p><input type="submit" value="Envoyer" onclick="return confirm('confirmer votre id')">
+	   <input type="reset" value="Effacer" style="margin-left:66px">
+	   <button type="button" onclick="changeValue('txt_prénom')" style="margin-left:66px">javascript</button>
+	</p>
+	<hr>
+	<p id="#paragraphe">gogogogogo!!! voici un paragraphe</p>
+        <button type="button"><a href='factorielle.jsp'>Factorielle</a></button>
+        <button type="button"><a href='login.jsp'>login</a></button>
+</body>
+</HTML>
